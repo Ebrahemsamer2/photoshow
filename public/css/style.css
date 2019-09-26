@@ -1,0 +1,213 @@
+
+form.delete-form {
+  display: inline;
+}
+
+/* Navbar Style */
+nav {
+  position: relative;
+}
+
+.user-dropdown {
+  position: absolute;
+  top: 50px;
+  right: 110px;
+  width: 120px;
+  display: none;
+}
+
+.user-dropdown ul {
+  position: absolute;
+  background: #3b628a;
+  width: 100%;
+}
+
+.user-dropdown ul li {
+  padding: 5px 15px;
+  text-align: center;
+  transition: .3s ease-in-out;
+}
+.user-dropdown ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+.user-dropdown ul li:hover {
+  color: #3b628a;
+  background: #fff;
+}
+.user-dropdown ul li:hover > a {
+  color: #3b628a;
+}
+
+.bg-light {
+  background-color: #3b628a !important;
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link {
+  color: #c7b1b6 !important;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.navbar .navbar-brand span:nth-child(1) {
+  color: orange;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.navbar .navbar-brand span:nth-child(2) {
+  color: orange;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.navbar .navbar-brand span {
+  border-bottom: 1px solid #c7b1b6;
+}
+
+.navbar ul li.nav-item a.nav-link:hover {
+  color: #FF9C63 !important;
+}
+
+/* ============ Header Style ============== */
+
+.container h4.title {
+  margin-bottom: 40px;
+}
+
+
+.header {
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) , url('../images/image3.jpeg');
+  margin-bottom: 50px;
+}
+
+.header p {
+  padding: 50px;
+  color: #d5d9dc;
+  font-size: 20px;
+}
+
+.header p a {
+  width: 140px;
+  margin-top: 20px;
+}
+
+.header .btn-outline-warning {
+  color: #FF9C63!important;
+  border-color: #FF9C63!important;
+}
+.header .btn-outline-warning:hover {
+  color: #FFF!important;
+  background-color: #FF9C63!important;
+}
+
+/* Footer Style */
+.page-footer {
+  background-color: #161C27;
+  color: #fff;
+  margin-top: 20px;
+}
+.footer-copyright {
+  background-color: #3B628A;
+}
+.page-footer .btn-outline-white {
+  color: #fff;
+  padding: 7px 25px;
+  border: 1px solid #fff;
+  border-radius: 17px;
+}
+.sign-up-btn {
+  transition: .3s ease-in-out;
+}
+.sign-up-btn:hover {
+ background: #E09A26;
+ border-color: #E09A26;
+}
+.footer-copyright a {
+  color: #E09A26;
+}
+.footer-copyright a:hover {
+  text-decoration: none;
+}
+
+.page-footer .fa {
+  font-size: 20px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  padding-top: 15px;
+  transition: .3s ease-in-out;
+}
+.page-footer ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+.page-footer .fa:hover {
+  opacity: .8;
+  transform: scale(.9,.9);
+}
+.page-footer .fa-facebook-f {
+  background-color: #3b5999;
+}
+.page-footer .fa-google-plus {
+  background-color: #dd4b39;
+}
+.page-footer .fa-linkedin {
+  background-color: #0077B5;
+}
+.page-footer .fa-dribbble {
+  background-color: #d59f80;
+}
+/* Photo Style */
+
+
+.photos {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+/* Albums Style */
+
+div.actions {
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.album-photos {
+  margin-bottom: 50px;
+}
+
+/* Video Style */
+
+.videos {
+  margin-top: 30px;
+}
+video {
+  width: 100%;
+}
+
+/* Admins Page */
+
+table.admins {
+  margin-top: 100px;
+}
+.edit-admin {
+  margin-top: 100px;
+}
+
+/* Login Page Style */
+
+div.card-header {
+  background: #3b628a;
+  color: #fff;
+}
+div.card-body form button {
+  color: #fff;
+  background-color: #3b628a;
+}
